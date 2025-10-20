@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="Pagina-1" id="s-XWecGlXijIhM-GH-9K">
-    <mxGraphModel dx="1515" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -572,7 +572,7 @@
           <mxGeometry x="420" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TPkK5msz5t8PLeYrQ9Gh-27" value="&amp;nbsp;il metodo per i ticket" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-180" y="240" width="140" height="100" as="geometry" />
+          <mxGeometry x="-180" y="240" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1U37Jf4oI8V5bz3e3lb--42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="1U37Jf4oI8V5bz3e3lb--41" target="t1PmMs3IWx8FvDzvTRMG-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -782,6 +782,9 @@
         </mxCell>
         <mxCell id="uxSjuQDoh8pJRqa7-rKC-17" value="EndValidity" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="94" y="94" width="53" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="uxSjuQDoh8pJRqa7-rKC-18" value="Spiegare cos&#39;è per noi il ticket" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="30" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
