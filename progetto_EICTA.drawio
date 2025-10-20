@@ -471,7 +471,7 @@
         <mxCell id="TPkK5msz5t8PLeYrQ9Gh-8" value="Type" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-59" y="86" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U37Jf4oI8V5bz3e3lb--24" value="Location" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1U37Jf4oI8V5bz3e3lb--24" value="LocationDescription" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="657" y="58.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TPkK5msz5t8PLeYrQ9Gh-9" value="Price" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
