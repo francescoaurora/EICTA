@@ -721,7 +721,7 @@
         <mxCell id="1U37Jf4oI8V5bz3e3lb--72" value="Execute" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U37Jf4oI8V5bz3e3lb--73" value="Choose" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1U37Jf4oI8V5bz3e3lb--73" value="Play" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="462" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
