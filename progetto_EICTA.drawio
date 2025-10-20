@@ -715,7 +715,7 @@
         <mxCell id="1U37Jf4oI8V5bz3e3lb--69" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="455" y="280" width="13" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="1U37Jf4oI8V5bz3e3lb--71" value="Perform" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1U37Jf4oI8V5bz3e3lb--71" value="Hold" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
