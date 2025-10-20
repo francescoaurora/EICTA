@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
   <diagram name="Pagina-1" id="s-XWecGlXijIhM-GH-9K">
-    <mxGraphModel dx="2291" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1315" dy="276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -402,12 +402,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="glZ-dOasdqyVMI1zNMbs-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="320" width="13" height="13" as="geometry" />
+          <mxGeometry x="-209.5" y="551" width="13" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="glZ-dOasdqyVMI1zNMbs-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="glZ-dOasdqyVMI1zNMbs-21" edge="1">
+        <mxCell id="glZ-dOasdqyVMI1zNMbs-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.59;entryY=0.085;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="glZ-dOasdqyVMI1zNMbs-21" edge="1" target="t1PmMs3IWx8FvDzvTRMG-91">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-293" y="326.5" as="sourcePoint" />
-            <mxPoint x="-233" y="326.5" as="targetPoint" />
+            <mxPoint x="-220" y="546.5" as="sourcePoint" />
+            <mxPoint x="-160" y="546.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="glZ-dOasdqyVMI1zNMbs-23" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -674,6 +674,21 @@
         </mxCell>
         <mxCell id="TPkK5msz5t8PLeYrQ9Gh-21" value="purchase" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-260" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPkK5msz5t8PLeYrQ9Gh-22" value="DateTime" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-202" y="535" width="52" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TPkK5msz5t8PLeYrQ9Gh-23" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="562" width="13" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="TPkK5msz5t8PLeYrQ9Gh-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.862;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TPkK5msz5t8PLeYrQ9Gh-23" target="t1PmMs3IWx8FvDzvTRMG-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-188" y="575.5" as="sourcePoint" />
+            <mxPoint x="-180" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPkK5msz5t8PLeYrQ9Gh-26" value="PaymentMethod" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-173" y="560" width="93" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
