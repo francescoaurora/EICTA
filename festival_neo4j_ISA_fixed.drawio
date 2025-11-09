@@ -19,9 +19,6 @@
         <mxCell id="Performance" value=":Performance&lt;br&gt;id (PK)&lt;br&gt;title&lt;br&gt;startTime&lt;br&gt;endTime&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="310" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Genre" value=":Genre&#xa;name (PK)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="310" width="150" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Artist" value=":Musician&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;nationality&lt;br&gt;fullName&lt;br&gt;mainInstrument&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="570" width="280" height="190" as="geometry" />
         </mxCell>
@@ -44,12 +41,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_Stage_Holds_Performance" value=":HOLDS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Stage" target="Performance" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R_Performance_Has_Genre" value=":HAS_GENRE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Performance" target="Genre" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="R_Artist_Plays_Genre" value=":PLAYS_GENRE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Artist" target="Genre" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_Artist_Performs_In_Performance" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Artist" target="Performance" edge="1">
@@ -93,6 +84,12 @@
         </mxCell>
         <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="570" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="651" as="sourcePoint" />
+            <mxPoint x="1204" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
