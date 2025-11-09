@@ -22,7 +22,7 @@
         <mxCell id="Artist" value=":Musician&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;nationality&lt;br&gt;fullName&lt;br&gt;mainInstrument&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="855" y="442.5" width="170" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Stand" value=":Stand&#xa;name&#xa;sponsor" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Stand" value=":Stand&lt;br&gt;name (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PK)&lt;/span&gt;&lt;div&gt;sponsor&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="300" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Product" value=":Merchandising&lt;br&gt;id (PK)&lt;br&gt;name&lt;br&gt;price (PK)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
