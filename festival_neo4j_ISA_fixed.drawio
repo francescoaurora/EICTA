@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram id="neo4j-festival-final" name="Neo4j Festival Property Graph (Correct ISA)">
-    <mxGraphModel dx="995" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="656" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,13 +16,13 @@
         <mxCell id="Stage" value=":Stage&#xa;name (PK)&#xa;idCode&#xa;maximumCapacity&#xa;locationDescription" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="80" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Performance" value=":Performance&#xa;id (PK)&#xa;title&#xa;startTime&#xa;endTime" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Performance" value=":Performance&lt;br&gt;id (PK)&lt;br&gt;title&lt;br&gt;startTime&lt;br&gt;endTime&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="310" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Genre" value=":Genre&#xa;name (PK)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="310" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Artist" value=":Musician&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;nationality&lt;br&gt;fullName&lt;br&gt;mainInstrument" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Artist" value=":Musician&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;nationality&lt;br&gt;fullName&lt;br&gt;mainInstrument&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="570" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Stand" value=":Stand&#xa;name&#xa;sponsor" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -91,7 +91,7 @@
             <mxPoint x="770" y="922" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Artist&#xa;id (PK)&#xa;stageName&#xa;country&#xa;artistType ∈ {Musician,Band}&#xa;nationality (if Musician)&#xa;fullName (if Musician)&#xa;mainInstrument (if Musician)&#xa;formationYear (if Band)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="570" width="280" height="190" as="geometry" />
         </mxCell>
       </root>
