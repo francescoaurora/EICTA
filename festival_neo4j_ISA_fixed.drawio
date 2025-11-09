@@ -91,6 +91,12 @@
             <mxPoint x="1204" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="M40hYmJGukw0_wMFnp3U-3" value=":MAKE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Artist" target="M40hYmJGukw0_wMFnp3U-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="551" as="sourcePoint" />
+            <mxPoint x="1149" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
