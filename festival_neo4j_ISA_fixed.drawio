@@ -14,13 +14,13 @@
           <mxGeometry x="755" y="80" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Stage" value=":Stage&#xa;name (PK)&#xa;idCode&#xa;maximumCapacity&#xa;locationDescription" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="80" width="150" height="130" as="geometry" />
+          <mxGeometry x="1020" y="80" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Performance" value=":Performance&lt;br&gt;id (PK)&lt;br&gt;title&lt;br&gt;startTime&lt;br&gt;endTime&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1065" y="290" width="140" height="120" as="geometry" />
+          <mxGeometry x="1025" y="280" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Artist" value=":Musician&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;nationality&lt;br&gt;fullName&lt;br&gt;mainInstrument&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="460" width="170" height="140" as="geometry" />
+          <mxGeometry x="855" y="442.5" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Stand" value=":Stand&#xa;name&#xa;sponsor" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="300" width="90" height="70" as="geometry" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="460" width="160" height="140" as="geometry" />
+          <mxGeometry x="1165" y="442.5" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance">
           <mxGeometry relative="1" as="geometry">
