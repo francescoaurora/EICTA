@@ -43,10 +43,10 @@
         <mxCell id="R_Stage_Holds_Performance" value=":HOLDS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Stage" target="Performance" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_Artist_Performs_In_Performance" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Artist" target="Performance" edge="1">
+        <mxCell id="R_Artist_Performs_In_Performance" value=":PERFORMS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Artist" target="Performance" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_Festival_Hosts_Stand" value=":HOSTS_STAND" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Festival" target="Stand" edge="1">
+        <mxCell id="R_Festival_Hosts_Stand" value=":HOSTS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Festival" target="Stand" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_Stand_Sells_Product" value=":SELLS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Stand" target="Product" edge="1">
@@ -85,7 +85,7 @@
         <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1165" y="442.5" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance" edge="1">
+        <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1110" y="651" as="sourcePoint" />
             <mxPoint x="1204" y="500" as="targetPoint" />
