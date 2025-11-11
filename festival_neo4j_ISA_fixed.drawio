@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram id="neo4j-festival-final" name="Neo4j Festival Property Graph (Correct ISA)">
-    <mxGraphModel dx="1203" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="R_Festival_Offers_Ticket" value=":OFFERS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Festival" target="Ticket" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_Festival_Has_Stage" value=":HAS_STAGE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Festival" target="Stage" edge="1">
+        <mxCell id="R_Festival_Has_Stage" value=":PARTITIONED" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Festival" target="Stage" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_Stage_Holds_Performance" value=":HOLDS" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;" parent="1" source="Stage" target="Performance" edge="1">
@@ -82,16 +82,16 @@
             <mxPoint x="770" y="922" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M40hYmJGukw0_wMFnp3U-1" value=":Band&lt;br&gt;id (PK)&lt;br&gt;stageName&lt;br&gt;country&lt;br&gt;formationYear&lt;br&gt;GenreName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1165" y="442.5" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance">
+        <mxCell id="M40hYmJGukw0_wMFnp3U-2" value=":PERFORMS_IN" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="M40hYmJGukw0_wMFnp3U-1" target="Performance" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1110" y="651" as="sourcePoint" />
             <mxPoint x="1204" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M40hYmJGukw0_wMFnp3U-3" value=":MAKE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Artist" target="M40hYmJGukw0_wMFnp3U-1">
+        <mxCell id="M40hYmJGukw0_wMFnp3U-3" value=":MAKE" style="endArrow=block;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Artist" target="M40hYmJGukw0_wMFnp3U-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1090" y="551" as="sourcePoint" />
             <mxPoint x="1149" y="480" as="targetPoint" />
